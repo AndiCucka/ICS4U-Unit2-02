@@ -53,11 +53,12 @@ final class Main {
         System.out.println("");
 
         final CarStack cars = new CarStack();
+        cars.push("Toyota");
         cars.push("Nissan");
         cars.push("Mazda");
         cars.push("Suzuki");
+        cars.push("Mitsubishi");
         System.out.println(carsString + cars.showStack());
-        System.out.println(poppedString + cars.popItem());
         System.out.println(poppedString + cars.popItem());
         System.out.println(poppedString + cars.popItem());
         System.out.println(poppedString + cars.popItem());
